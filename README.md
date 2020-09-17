@@ -19,9 +19,9 @@ require index.php;
 
 // Initialize the reader
 $inbox = new VG_Gmail_Forwarder(array(
-	// You should create a filter on Gmail to apply a label to the emails that you want to 
-	// process with this class, so the class won't go through your entire inbox. 
-	// If you want to iterate the entire inbox, leave this empty
+	// IMPORTANT. You should create a filter on Gmail to apply a label to the emails that you want to 
+	// process with this class, so the class won't go through your entire inbox for performance reasons.
+	// If you want to check the entire inbox, leave this empty but it's not recommended
 	'gmail_label' => 'My gmail label',
 	'username' => 'user@gmail.com',
 	// Regular Gmail password or Google App Password if using 2fa
