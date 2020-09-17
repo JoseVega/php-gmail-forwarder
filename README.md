@@ -5,7 +5,7 @@ This is great when you need to do something with emails sent by external platfor
 
 # Use cases
 
-- You receive an email from Freemius, WooCommerce, or any checkout system and you want to extract information and forward it to your helpdesk team. This is perfect to parse the modify the email body before forwarding the email in case you don't want your support team to view the full client information.
+- You receive an email from Freemius, WooCommerce, or any checkout system and you want to extract information and forward it to your helpdesk team. This is perfect to modify the email body before forwarding the email in case you don't want your support team to view the full client information.
 - You receive an email from an external platform and the email headers are not compatible with your helpdesk system, so you can use this class to change the from and reply-to addresses and forward to your helpdesk address.
 
 # Example
